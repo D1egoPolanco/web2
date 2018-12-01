@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const dulcecontroller = requiere('../controllers/dulcecontroller');
+const dulcecontroller = require('../controllers/dulcecontroller');
 
-router.get('/',filtrocontroller.index);
-router.post('/',filtrocontroller.store)
+router.get('/',dulcecontroller.index);
+router.post('/',dulcecontroller.store)
 
 module.exports  = router;

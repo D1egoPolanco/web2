@@ -1,7 +1,7 @@
 const dulce = require('../models/dulce');
 const dulcecontroller = {};
 
-dulcecontrollercontroller.index = async function(req,res,next){
+dulcecontroller.index = async function(req,res,next){
     try {
         let dulces = await dulce.find ();
         return res.status (200).json(dulces);
